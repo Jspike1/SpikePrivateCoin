@@ -40,10 +40,10 @@ static const unsigned int MAX_INV_SZ = 50000;
 static const int64_t MIN_TX_FEE =  10000; // 0.0001000 SPC
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 1000000 * COIN;
-static const int64_t COIN_YEAR_REWARD = 20 * CENT; // 20%
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 2.0 * COIN;  // 20% annual interest 
+static const int64_t COIN_YEAR_REWARD = 200 * CENT; // 200%
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 2.0 * COIN;  // 200% annual interest 
 
-static const int MODIFIER_INTERVAL_SWITCH = 4000;
+static const int MODIFIER_INTERVAL_SWITCH = 2500;
 
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
